@@ -1,0 +1,274 @@
+
+/* INDEX*/
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#2196f3,#64b5f6);
+    margin:0;
+    padding:0;
+}
+
+.hero{
+    text-align:center;
+    padding:90px 20px 60px;
+    color:white;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:700;
+    color:white;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    color:rgba(255,255,255,0.9);
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.hero .btn{
+    background:white;
+    color:#2196f3;
+    border:none;
+    padding:14px 35px;
+    font-size:1.1rem;
+    border-radius:10px;
+    transition:0.3s;
+    font-weight:600;
+}
+
+.hero .btn:hover{
+    background:#e3f2fd;
+}
+
+.about-box,
+.pickup-box{
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.price-card{
+    background:#e3f2fd;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.price-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(33,150,243,0.3);
+}
+
+.price-card h4{
+    color:#2196f3;
+    font-weight:700;
+}
+
+
+
+.gallery{
+    padding:50px 0;
+}
+
+.gallery-card{
+    background:white;
+    padding:15px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.gallery-card:hover{
+    transform:translateY(-8px);
+}
+
+.gallery-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+.gallery-card img:hover{
+    transform:scale(1.05);
+}
+
+.gallery img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+
+footer{
+    background:#1976d2;
+    color:white;
+    text-align:center;
+    padding:25px 0;
+    margin-top:40px;
+}
+
+/* LOGIN */
+
+
+.login-box{
+    width:400px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    margin:auto;
+    margin-top:120px;
+}
+
+.login-box h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#2196f3;
+    font-weight:700;
+}
+
+.btn-login{
+    width:100%;
+    background:#2196f3;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:10px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-login:hover{
+    background:#1976d2;
+}
+
+
+/* FORM */
+
+
+.container-box{
+    width:700px;
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    margin:auto;
+    margin-top:50px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.container-box h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#1565c0;
+    font-weight:700;
+}
+
+
+
+.form-control,
+.form-select{
+    border-radius:12px;
+    padding:12px;
+    border:1px solid #cfe2ff;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#2196f3;
+    box-shadow:none;
+}
+
+
+.btn-simpan{
+    background:#2196f3;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:10px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-simpan:hover{
+    background:#1976d2;
+}
+
+
+/* TABEL */
+
+.container{
+    margin-top:50px;
+}
+
+.table{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+thead{
+    background:#2196f3;
+    color:white;
+}
+
+tbody tr:hover{
+    background:#f4f9ff;
+}
+
+
+.status-proses{
+    background:#ff9800;
+    color:white;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:0.9rem;
+}
+
+.status-selesai{
+    background:#4caf50;
+    color:white;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:0.9rem;
+}
+
+
+.btn-edit{
+    background:#2196f3;
+    color:white;
+    border:none;
+    padding:6px 14px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn-edit:hover{
+    background:#1976d2;
+}
+
+.btn-hapus{
+    background:#f44336;
+    color:white;
+    border:none;
+    padding:6px 14px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn-hapus:hover{
+    background:#d32f2f;
+}
